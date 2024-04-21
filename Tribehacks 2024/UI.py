@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
 import numpy as np
-import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVR
 from sklearn.ensemble import RandomForestRegressor
