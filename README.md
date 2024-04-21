@@ -1,1 +1,4 @@
 # TribeHacks-2024-Project
+Hello! This is my project for the 2024 Tribehacks hackathon. In short, I created a program that can take a ticker for a stock and then retrieve financial data and stock price data for that company. The program will then try to run some simplistic regressions that will return an estimated average stock price for the next year depending on the financial values you put in (code is currently set to generate random numbers, simply uncomment the lines asking for input). The number returned is more to see what the company's direction and future look like. The second regression performed will train a model to predict an average price for the day-to-day average price of the stock. Since I had more data points for the day-to-day pricing, I chose return the mean squared error of the model so that we could evaluate its performance.
+
+P.S. this project is not intended to be used for personal portfolio management
